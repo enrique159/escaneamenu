@@ -1,4 +1,4 @@
-# escaneamenu
+# EscaneaMenu - App Flutter
 
 Con EscaneaMenu podrás guardar los menús digitales de tus restaurantes favoritos conforme vas escaneando sus códigos QR.
 
