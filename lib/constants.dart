@@ -9,7 +9,7 @@ const kDarkGreyColor = Color(0xFF2C3E50);
 
 // My Text Styles
 final kHeadingTextStyle = TextStyle(  
-  fontSize: ScreenUtil().setSp(24),
-  color: Colors.black87,
+  fontSize: 18,
+  color: kDarkGreyColor,
   fontWeight: FontWeight.w900,
 );

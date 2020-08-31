@@ -1,4 +1,7 @@
 import 'package:escaneamenu/constants.dart';
+import 'package:escaneamenu/view/config.dart';
+import 'package:escaneamenu/view/menus.dart';
+import 'package:escaneamenu/view/scan.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -21,15 +24,9 @@ class _HomeState extends State<Home> {
             backgroundColor: Colors.white,
             body: TabBarView(
               children: [
-                new Container(
-                  color: Colors.yellow,
-                ),
-                new Container(
-                  color: Colors.orange,
-                ),
-                new Container(
-                  color: Colors.lightGreen,
-                ),
+                Scan(),
+                Menus(),
+                Config(),
               ],
             ),
             bottomNavigationBar: new TabBar(
