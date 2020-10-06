@@ -13,3 +13,15 @@ final kHeadingTextStyle = TextStyle(
   color: kDarkGreyColor,
   fontWeight: FontWeight.w900,
 );
+
+final kTitleTextStyle = TextStyle(  
+  fontSize: 16,
+  color: kDarkGreyColor,
+  fontWeight: FontWeight.w600,
+);
+
+final kNormalTextStyle = TextStyle(  
+  fontSize: 15,
+  color: kDarkGreyColor,
+  fontWeight: FontWeight.normal,
+);
